@@ -4,12 +4,13 @@ Apple is great and publishes device frames so you can use them for mockups. Unfo
 
 I’ve collected some of these for me to use, and will try and keep them up to date.
 
-All Sketch files here: https://jjy.me/resources/mdf-gd
+Sketch file here, and Figma file for 2025 models: https://jjy.me/resources/mdf-gd
 
-## Latest update — 25 Sep
-- Added the Pixel 9 Pro and XL (I plan to do the Fold at some point)
-- Added the new iPhones - maybe will do these myself if I find some time
-- Also, if you want 3D mockups, check here: https://jjy.me/resources/3d-mocks
+Also on [Gumroad](https://jamesjingyi.gumroad.com/l/2025-iphone-svgs) (if that’s easier!)
+
+## Latest update — 11 Sept 2025
+- Added the iPhone 17 Pro, Pro Max, and Air, all SVGs (PNGs also included)!
+- Started changing files so that frames are made with just 100px padding on each edge, as this seems easier (done to all iPhones)
 
 Provided is:
 
