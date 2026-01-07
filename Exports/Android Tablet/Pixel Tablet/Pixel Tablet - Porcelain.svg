@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3147px" height="2131px" viewBox="0 0 3147 2131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Android Tablet / Pixel Tablet - Porcelain</title>
+    <defs>
+        <path d="M0,0 L3147,0 L3147,2131 L0,2131 L0,0 Z" id="path-1"></path>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-2">
+            <stop stop-color="#252525" offset="0%"></stop>
+            <stop stop-color="#151414" offset="35.1507867%"></stop>
+            <stop stop-color="#212527" offset="49.065778%"></stop>
+            <stop stop-color="#616360" offset="60.8118444%"></stop>
+            <stop stop-color="#36567B" offset="68.4806916%"></stop>
+            <stop stop-color="#1D2E3B" offset="78.2124126%"></stop>
+            <stop stop-color="#22394F" offset="85.3738548%"></stop>
+            <stop stop-color="#3F5975" offset="92.0017483%"></stop>
+            <stop stop-color="#929FA7" offset="100%"></stop>
+        </radialGradient>
+        <pattern id="pattern-3" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-4"></use>
+        </pattern>
+        <image id="image-4" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAGqADAAQAAAABAAAAGgAAAABMybYKAAAC60lEQVRIDZ2V7WoTQRSGNx+7m8QYq7EKflEE70Evw+vwLv0vCKK/hYIUtGk+mqRJk6zPM2TCWpp248DTMzt75rznnJlNa0mSbCCONZMpTGAEY7iAIQxKnJfmrvte6vAIHkIXHkBHmvwpjwYPbbiGJSwgg3SL72vgMEETW4G+Phu4BcaQIKK9KcRa4poObnaTKKaIOAowsAmZzBWYzD/Beb5TyIwNbnaKzSGHKGZ7FIqV6OP8CAzsPtsWca19W0Wsh/boaBCzvQSF9FfIaqJQTMSAnk08H62ioZ37hHgfAvawCulsINtjxQrFam3dY9A3Ei+Ee+6siPdhWIWbZmD/baHnVBZyzbZFFI2VhWp43ts63u2Gm2yP19fsFPK2ueZn8Bz6JRS0stgFE8zuah3vd+MpM4OegXs8H78xhRV6trUK2gHPN7QMGy5SVSEvwAtQyBvpuZ3DW3gNr+AYYtusJrba9qdVhfANG0+wX8FbaObvtpiE1cSbZjJW4uVR4yAh/JOX8AZO4T182D7b2tiusoAidqMeryrzg8ZHvD+BLbMKKzCoGDMExzp8lnBVva6V6Ha736r6lv1UrjwQ+d7r9b5U3lByrCRUq9U2ivT7/c+LxeKktL/y1J7eNuypP5xJo9GYttvtnwj9qNfr89Vq5cd439jtj477hBQp0jQd5nn+SyE4XS6Xx+v12lt13whJlp1uFaJV62azeY7I763QGWtLq0HIb+PgcVOooD1XWZaNohDzP8wHCBwh1Ebw5p5KouVNGwJOYQIXCAw4nwF2SPBrRmez2eRFUXiB/BQqXaSYhUIFgVYeOgKXMPJsQDtifUw18avPFMI/wcYYlWyTVi0INlMEOyH4mPmYdds3sRoqeULbMgRNzEoOU2FD0+AEnGGDEAIT56xZ4YzgHbBlOaIpNvycVCqj5FQ34FZkSjUBnhWZEpRCVi2FqCqFeC6HV2TWVGFFCmpt45w1/+e0rASbIdJg7n/X/2rdX9bzEIaIaCCgAAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Android-Tablet-/-Pixel-Tablet---Porcelain" stroke="none" fill="none" xlink:href="#path-1" fill-rule="evenodd" stroke-width="1">
+        <g transform="translate(200, 200)" id="Pixel-Tablet---Porcelain">
+            <g transform="translate(-117, -119)">
+                <path d="M2977,120 L2977,1847 C2977,1911.06503 2925.06503,1963 2861,1963 L120,1963 C55.934969,1963 4,1911.06503 4,1847 L4,120 C4,55.934969 55.934969,4 120,4 L2861,4 C2925.06503,4 2977,55.934969 2977,120 Z M157,115 C132.699471,115 113,134.699471 113,159 L113,1810 C113,1834.30053 132.699471,1854 157,1854 L2824,1854 C2848.30053,1854 2868,1834.30053 2868,1810 L2868,159 C2868,134.699471 2848.30053,115 2824,115 Z" id="Frame" stroke="#EFE8DB" stroke-width="8" fill="#D2CAC4"></path>
+                <path d="M2968.75,120 L2968.75,1847 C2968.75,1906.50868 2920.50868,1954.75 2861,1954.75 L120,1954.75 C60.4913182,1954.75 12.25,1906.50868 12.25,1847 L12.25,120 C12.25,60.4913182 60.4913182,12.25 120,12.25 L2861,12.25 C2920.50868,12.25 2968.75,60.4913182 2968.75,120 Z M157,118.75 C134.770539,118.75 116.75,136.770539 116.75,159 L116.75,1810 C116.75,1832.22946 134.770539,1850.25 157,1850.25 L2824,1850.25 C2846.22946,1850.25 2864.25,1832.22946 2864.25,1810 L2864.25,159 C2864.25,136.770539 2846.22946,118.75 2824,118.75 Z" id="Bezel" stroke="#D8D7D2" stroke-width="0.5" fill="#F0F0F0"></path>
+                <g id="Camera" transform="translate(1478, 43)">
+                    <circle fill="#100F0D" cx="17" cy="17" r="17"></circle>
+                    <circle id="Peek" fill="url(#radialGradient-2)" cx="17" cy="17" r="13"></circle>
+                    <circle id="Shade" fill="url(#pattern-3)" cx="17" cy="17" r="13"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3104px" height="1936px" viewBox="0 0 3104 1936" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Windows Laptop / Microsoft /Surface Laptop 13 - Platinum</title>
+    <defs>
+        <path d="M22.19,0 L2281.81,3.55271368e-15 C2294.0652,0 2304,9.9348014 2304,22.19 L2304,1513.81 C2304,1526.0652 2294.0652,1536 2281.81,1536 L22.19,1536 C9.9348014,1536 5.32907052e-14,1526.0652 5.32907052e-14,1513.81 L-7.10542736e-15,22.19 C-7.10542736e-15,9.9348014 9.9348014,5.32907052e-14 22.19,5.32907052e-14 Z" id="path-1"></path>
+        <linearGradient x1="3.46944695e-15%" y1="2.10118381e-14%" x2="100%" y2="2.10118381e-14%" id="linearGradient-2">
+            <stop stop-color="#DDDDDD" offset="0%"></stop>
+            <stop stop-color="#D6D6D6" offset="0.185316217%"></stop>
+            <stop stop-color="#C1C1C1" offset="0.355526418%"></stop>
+            <stop stop-color="#BABABA" offset="0.630111829%"></stop>
+            <stop stop-color="#BABABA" offset="0.884062391%"></stop>
+            <stop stop-color="#DBDBDB" offset="1.33442614%"></stop>
+            <stop stop-color="#F3F3F3" offset="1.75845588%"></stop>
+            <stop stop-color="#E4E2E4" offset="30.573759%"></stop>
+            <stop stop-color="#D5D5D5" offset="56.4006242%"></stop>
+            <stop stop-color="#CACACA" offset="83.9899765%"></stop>
+            <stop stop-color="#BCBCBC" offset="96.8934127%"></stop>
+            <stop stop-color="#C7C7C7" offset="97.0606946%"></stop>
+            <stop stop-color="#DADBDA" offset="97.2266353%"></stop>
+            <stop stop-color="#DADBDA" offset="97.9063574%"></stop>
+            <stop stop-color="#E1E1E1" offset="98.4033972%"></stop>
+            <stop stop-color="#DFDFDF" offset="98.9276393%"></stop>
+            <stop stop-color="#E0E0E0" offset="99.2554527%"></stop>
+            <stop stop-color="#CFCFCF" offset="99.4711488%"></stop>
+            <stop stop-color="#CECCCD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.46944695e-15%" y1="23.498107%" x2="100%" y2="76.501893%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2513.19073,0 C2555.05903,-1.42108547e-14 2589,33.9409675 2589,75.8092728 L2589,1656.19073 C2589,1698.05903 2555.05903,1732 2513.19073,1732 L285.809273,1732 C243.940968,1732 210,1698.05903 210,1656.19073 L210,75.8092728 C210,33.9409675 243.940968,-1.42108547e-14 285.809273,-1.42108547e-14 L2513.19073,0 Z M270.18808,64 C257.933942,64 248,73.9339417 248,86.1880798 L248,1577.81192 C248,1590.06606 257.933942,1600 270.18808,1600 L2529.81192,1600 C2542.06606,1600 2552,1590.06606 2552,1577.81192 L2552,86.1880798 C2552,73.9339417 2542.06606,64 2529.81192,64 L270.18808,64 Z" id="path-4"></path>
+        <linearGradient x1="-5.86407768%" y1="29.6194869%" x2="121.431407%" y2="85.039843%" id="linearGradient-5">
+            <stop stop-color="#171718" offset="0%"></stop>
+            <stop stop-color="#565857" offset="36.9905739%"></stop>
+            <stop stop-color="#171718" offset="39.0284931%"></stop>
+            <stop stop-color="#171718" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#202020" offset="0%"></stop>
+            <stop stop-color="#727272" offset="18.2523509%"></stop>
+            <stop stop-color="#9D9D9D" offset="32.7693992%"></stop>
+            <stop stop-color="#9D9D9D" offset="87.4226965%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#9D9D9D" offset="0%"></stop>
+            <stop stop-color="#DEDFE1" offset="1.18367283%"></stop>
+            <stop stop-color="#CECCCD" offset="2.30843032%"></stop>
+            <stop stop-color="#CECCCD" offset="97.7260506%"></stop>
+            <stop stop-color="#DEDFE1" offset="98.6926305%"></stop>
+            <stop stop-color="#9D9D9D" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-8">
+            <stop stop-color="#252525" offset="0%"></stop>
+            <stop stop-color="#151414" offset="35.1507867%"></stop>
+            <stop stop-color="#212527" offset="49.065778%"></stop>
+            <stop stop-color="#616360" offset="60.8118444%"></stop>
+            <stop stop-color="#36567B" offset="68.4806916%"></stop>
+            <stop stop-color="#1D2E3B" offset="78.2124126%"></stop>
+            <stop stop-color="#22394F" offset="85.3738548%"></stop>
+            <stop stop-color="#3F5975" offset="92.0017483%"></stop>
+            <stop stop-color="#929FA7" offset="100%"></stop>
+        </radialGradient>
+        <pattern id="pattern-9" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-10"></use>
+        </pattern>
+        <image id="image-10" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAADKADAAQAAAABAAAADAAAAAATDPpdAAAA+UlEQVQoFXWR3UrDQBCFs0lDEtgYMNoW//DKZ/A1fA6f0hfwRtQLoS0U1AvRCyGUmGz8TkhLLOvAtzM77JmcISYIAgcdfMASXuB5xIJ6CmcwCzkUBsqBnBxDA9+QwWxgvhVwD1SfwBGksIFPUE/Tz1VPOMahaRdgQdMP4GrglHy4L6C3m7amvh64JMtyLu9a2hc3NG9BdrSXbPYfkOAP1tqH/d72Pl6aHuatfSyK4r6/eI6dwBjj9Lgsy7uqqrS4N3pPURRVWZYtETyFYbhp27bwvqY5ieP4K0mSVwQrWNd1feycS/4VpGn6JhC9Y+unaZq86zr9aW/8AvloQYoQbotTAAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Windows-Laptop-/-Microsoft-/Surface-Laptop-13---Platinum" stroke="none" fill="none" fill-rule="evenodd" stroke-width="1">
+        <g transform="translate(400, 200)" xlink:href="#path-1" id="Surface-Laptop-13">
+            <g transform="translate(-248, -64)">
+                <g id="Border">
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+                <path d="M2510.58675,10 C2548.37035,10 2579,40.6296536 2579,78.4132462 L2579,1657.58675 C2579,1695.37035 2548.37035,1726 2510.58675,1726 L289.413246,1726 C251.629654,1726 221,1695.37035 221,1657.58675 L221,78.4132462 C221,40.6296536 251.629654,10 289.413246,10 L2510.58675,10 Z M270.18808,64 C257.933942,64 248,73.9339417 248,86.1880798 L248,1577.81192 C248,1590.06606 257.933942,1600 270.18808,1600 L2529.81192,1600 C2542.06606,1600 2552,1590.06606 2552,1577.81192 L2552,86.1880798 C2552,73.9339417 2542.06606,64 2529.81192,64 L270.18808,64 Z" id="Bezel" fill="url(#linearGradient-5)"></path>
+                <path d="M95.4673398,1665 L2704.53266,1665 C2708.08265,1665 2711.53797,1666.14494 2714.38554,1668.26479 L2800,1732 L2800,1732 L0,1732 L85.6144612,1668.26479 C88.4620265,1666.14494 91.9173525,1665 95.4673398,1665 Z" id="Base" fill="url(#linearGradient-6)" transform="translate(1400, 1698.5) scale(1, -1) translate(-1400, -1698.5)"></path>
+                <rect id="Edge" stroke="#D8D8D8" fill="url(#linearGradient-7)" x="0.5" y="1632.5" width="2799" height="32"></rect>
+                <g id="Group" transform="translate(1085, 23)">
+                    <circle id="IR-R" fill="#676767" cx="624" cy="6" r="6"></circle>
+                    <g id="Camera" transform="translate(306, 0)">
+                        <circle fill="#060606" cx="9" cy="9" r="9"></circle>
+                        <circle id="Peek" fill="url(#radialGradient-8)" cx="9" cy="9" r="5.86956522"></circle>
+                        <circle id="Shade" fill="url(#pattern-9)" cx="9" cy="9" r="5.86956522"></circle>
+                    </g>
+                    <circle id="IR-L" fill="#676767" cx="6" cy="6" r="6"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1621px" height="3135px" viewBox="0 0 1621 3135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Android Phone / Pixel 8 Pro - Blue</title>
+    <defs>
+        <path d="M0,0 L1621,0 L1621,3135 L0,3135 L0,0 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="-0.568181818%" x2="50%" y2="99.0776944%" id="linearGradient-2">
+            <stop stop-color="#C2CBD4" offset="0%"></stop>
+            <stop stop-color="#8299AC" offset="1.47665685%"></stop>
+            <stop stop-color="#8299AC" offset="2.09989712%"></stop>
+            <stop stop-color="#86A8C1" offset="4.08879635%"></stop>
+            <stop stop-color="#8DABC4" offset="9.35447416%"></stop>
+            <stop stop-color="#8DABC4" offset="10.7753315%"></stop>
+            <stop stop-color="#6F8DAA" offset="97.7631456%"></stop>
+            <stop stop-color="#3B657C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.27248775e-13%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#C5CFD8" offset="0%"></stop>
+            <stop stop-color="#B3C2CC" offset="1.27889214%"></stop>
+            <stop stop-color="#B3C2CC" offset="1.45462268%"></stop>
+            <stop stop-color="#B3C2CC" offset="2.56903335%"></stop>
+            <stop stop-color="#C1D1DB" offset="2.73242641%"></stop>
+            <stop stop-color="#A4B7C1" offset="97.1465633%"></stop>
+            <stop stop-color="#C4CED4" offset="97.2519125%"></stop>
+            <stop stop-color="#C4CED4" offset="98.2059558%"></stop>
+            <stop stop-color="#DFE1E5" offset="98.668944%"></stop>
+            <stop stop-color="#DFE1E5" offset="99.6245379%"></stop>
+            <stop stop-color="#EFF0F1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-0.568181818%" x2="50%" y2="99.0776944%" id="linearGradient-4">
+            <stop stop-color="#B7C3D0" offset="0%"></stop>
+            <stop stop-color="#6D879F" offset="1.47665685%"></stop>
+            <stop stop-color="#496C88" offset="2.09989712%"></stop>
+            <stop stop-color="#5F819A" offset="4.08879635%"></stop>
+            <stop stop-color="#88A8C0" offset="9.35447416%"></stop>
+            <stop stop-color="#88A8C0" offset="10.7753315%"></stop>
+            <stop stop-color="#879EB7" offset="93.4262999%"></stop>
+            <stop stop-color="#2D5A73" offset="97.7631456%"></stop>
+            <stop stop-color="#A0B0BF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.27248775e-13%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#D7DCE2" offset="0%"></stop>
+            <stop stop-color="#BFCBD4" offset="1.27889214%"></stop>
+            <stop stop-color="#AABBC8" offset="1.45462268%"></stop>
+            <stop stop-color="#AFC0CB" offset="2.56903335%"></stop>
+            <stop stop-color="#AFC0CB" offset="2.73242641%"></stop>
+            <stop stop-color="#9CB1BB" offset="97.1465633%"></stop>
+            <stop stop-color="#A6B8C4" offset="97.2519125%"></stop>
+            <stop stop-color="#B6C4CF" offset="98.2059558%"></stop>
+            <stop stop-color="#B6C4CF" offset="98.668944%"></stop>
+            <stop stop-color="#DCE2E8" offset="99.6245379%"></stop>
+            <stop stop-color="#F8F9FA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.6090719%" y1="2.50450702e-15%" x2="50.5224069%" y2="100.496764%" id="linearGradient-6">
+            <stop stop-color="#E3EAF7" offset="0%"></stop>
+            <stop stop-color="#E0E6F6" offset="0.104711363%"></stop>
+            <stop stop-color="#BBD6EC" offset="0.178527827%"></stop>
+            <stop stop-color="#C7E6FF" offset="0.314845444%"></stop>
+            <stop stop-color="#E1FDFF" offset="0.389418822%"></stop>
+            <stop stop-color="#A8C5E4" offset="1.2993868%"></stop>
+            <stop stop-color="#424E5A" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="3.96775332%" cy="1.74723776%" fx="3.96775332%" fy="1.74723776%" r="229.609778%" gradientTransform="translate(0.0397, 0.0175), scale(1, 0.4711), rotate(65.2764), translate(-0.0397, -0.0175)" id="radialGradient-7">
+            <stop stop-color="#ABC8E3" offset="0.0191215035%"></stop>
+            <stop stop-color="#8BB2CB" offset="0.776610296%"></stop>
+            <stop stop-color="#84A1BE" offset="2.03223613%"></stop>
+            <stop stop-color="#83ADCB" offset="3.04750845%"></stop>
+            <stop stop-color="#759BB6" offset="28.5574362%"></stop>
+            <stop stop-color="#89B0C9" offset="79.7914859%"></stop>
+            <stop stop-color="#8FAFC2" offset="90.932674%"></stop>
+            <stop stop-color="#89B0C9" offset="92.758669%"></stop>
+            <stop stop-color="#DAE0E8" offset="99.0235984%"></stop>
+            <stop stop-color="#87A4BE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-8">
+            <stop stop-color="#252525" offset="0%"></stop>
+            <stop stop-color="#151414" offset="35.1507867%"></stop>
+            <stop stop-color="#212527" offset="49.065778%"></stop>
+            <stop stop-color="#616360" offset="60.8118444%"></stop>
+            <stop stop-color="#36567B" offset="68.4806916%"></stop>
+            <stop stop-color="#1D2E3B" offset="78.2124126%"></stop>
+            <stop stop-color="#22394F" offset="85.3738548%"></stop>
+            <stop stop-color="#3F5975" offset="92.0017483%"></stop>
+            <stop stop-color="#929FA7" offset="100%"></stop>
+        </radialGradient>
+        <pattern id="pattern-9" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-10"></use>
+        </pattern>
+        <image id="image-10" width="61" height="61" xlink:href="data:image/png;base64,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"></image>
+    </defs>
+    <g id="Android-Phone-/-Pixel-8-Pro---Blue" stroke="none" fill="none" xlink:href="#path-1" fill-rule="evenodd" stroke-width="1">
+        <g transform="translate(183, 169)">
+            <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="-55.5" y="193.5" width="19" height="21"></rect>
+            <g id="Pixel-8-Pro-Blue" transform="translate(-57, -57)">
+                <g id="Power-button" transform="translate(1369, 925)">
+                    <rect id="Left" fill="url(#linearGradient-2)" x="0" y="0" width="6" height="175"></rect>
+                    <rect id="Right" fill="url(#linearGradient-3)" x="6" y="0" width="2" height="175"></rect>
+                </g>
+                <g id="Volume-rocker" transform="translate(1369, 1245)">
+                    <rect id="Left" fill="url(#linearGradient-4)" x="0" y="0" width="6" height="355"></rect>
+                    <rect id="Right" fill="url(#linearGradient-5)" x="6" y="0" width="2" height="355"></rect>
+                </g>
+                <path d="M1209,0 C1297.36556,-2.84217094e-14 1369,71.63444 1369,160 L1369,2746 C1369,2834.36556 1297.36556,2906 1209,2906 L160,2906 C71.63444,2906 0,2834.36556 0,2746 L0,160 C0,71.63444 71.63444,0 160,0 L1209,0 Z M1205,57 L164,57 C104.905532,57 57,104.905532 57,164 L57,2742 C57,2801.09447 104.905532,2849 164,2849 L1205,2849 C1264.09447,2849 1312,2801.09447 1312,2742 L1312,164 C1312,104.905532 1264.09447,57 1205,57 Z" id="Frame-base" fill="url(#linearGradient-6)"></path>
+                <path d="M1209,0 C1297.36556,-2.84217094e-14 1369,71.63444 1369,160 L1369,2746 C1369,2834.36556 1297.36556,2906 1209,2906 L160,2906 C71.63444,2906 0,2834.36556 0,2746 L0,160 C0,71.63444 71.63444,0 160,0 L1209,0 Z M1205,57 L164,57 C104.905532,57 57,104.905532 57,164 L57,2742 C57,2801.09447 104.905532,2849 164,2849 L1205,2849 C1264.09447,2849 1312,2801.09447 1312,2742 L1312,164 C1312,104.905532 1264.09447,57 1205,57 Z" id="Frame-highlight" fill="url(#radialGradient-7)"></path>
+                <path d="M1205,20 C1284.529,20 1349,84.470996 1349,164 L1349,2742 C1349,2821.529 1284.529,2886 1205,2886 L164,2886 C84.470996,2886 20,2821.529 20,2742 L20,164 C20,84.470996 84.470996,20 164,20 L1205,20 Z M1205,57 L164,57 C104.905532,57 57,104.905532 57,164 L57,2742 C57,2801.09447 104.905532,2849 164,2849 L1205,2849 C1264.09447,2849 1312,2801.09447 1312,2742 L1312,164 C1312,104.905532 1264.09447,57 1205,57 Z" id="Bezel" fill="#100F0D"></path>
+                <g id="Camera" transform="translate(644, 86)">
+                    <circle fill="#100F0D" cx="40.5" cy="40.5" r="40.5"></circle>
+                    <circle id="Peek" fill="url(#radialGradient-8)" cx="40.5" cy="40.5" r="30.375"></circle>
+                    <circle id="Shade" fill="url(#pattern-9)" cx="40.5" cy="40.5" r="30.375"></circle>
+                </g>
+                <g id="Frame-splits" transform="translate(1, 0)" fill="#638498">
+                    <rect id="Frame-split---Bottom" x="820" y="2886" width="28" height="20"></rect>
+                    <rect id="Frame-split---Left-3" x="0" y="2636" width="20" height="15"></rect>
+                    <rect id="Frame-split---Left-2" x="0" y="686" width="20" height="15"></rect>
+                    <rect id="Frame-split---Left-1" x="0" y="257" width="20" height="15"></rect>
+                    <rect id="Frame-split---Right-3" x="1349" y="2636" width="20" height="15"></rect>
+                    <rect id="Frame-split---Right-2" x="1349" y="686" width="20" height="15"></rect>
+                    <rect id="Frame-split---Right-1" x="1349" y="257" width="20" height="15"></rect>
+                    <rect id="Frame-split---Top" x="670" y="0" width="28" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
