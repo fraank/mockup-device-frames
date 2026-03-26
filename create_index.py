@@ -328,10 +328,27 @@ def detect_orientation(filename: str, width: int, height: int, device_type: str)
 
 
 def infer_color_from_filename(stem: str) -> str:
+    """
+    Infers the color name from a filename stem by splitting the stem on hyphens,
+    extracting the last segment(s) as the color, normalizing it, and replacing spaces with hyphens.
+    Supports multi-word and hyphenated color names like "desert-titanium".
+    Ignores trailing numeric suffixes (e.g., "silver-2" -> "silver").
+    """
     parts = [p.strip() for p in re.split(r"\s*-\s*", stem) if p.strip()]
-    color_raw = parts[-1] if parts else stem
+    # Remove trailing numeric part (e.g., "silver-2" -> "silver")
+    if parts and parts[-1].isdigit() and len(parts) > 1:
+        parts = parts[:-1]
+    if len(parts) >= 2:
+        last_two = "-".join(parts[-2:]).lower()
+        if re.match(r"^[a-z]+(-[a-z]+)+$", last_two):
+            color_raw = last_two
+        else:
+            color_raw = parts[-1]
+    elif parts:
+        color_raw = parts[-1]
+    else:
+        color_raw = stem
     return normalize_device_name(color_raw).replace(" ", "-")
-
 
 def normalize_device_name(name: str) -> str:
     name = name.lower().strip()
