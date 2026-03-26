@@ -44,7 +44,20 @@ class TestEstimateRadius(unittest.TestCase):
         r = estimate_radius(img, slot, 10)
         self.assertEqual(r, 0)
 
-    def test_real_device_frame_image(self):
+    def test_android_real_device_frame_image(self):
+        img_path = os.path.join("Exports", "Android Phone", "Pixel 8", "Pixel 8 - Hazel.png")
+        img = load_image(img_path)
+        alpha_threshold = 10
+        components = find_transparent_components(img, alpha_threshold)
+        slot = choose_best_component(components)
+        radius = estimate_radius(img, slot, alpha_threshold)
+        # The radius should be a positive integer, but not larger than half the slot width/height
+        self.assertIsInstance(radius, int)
+        self.assertGreater(radius, 10)
+        self.assertLess(radius, max(slot["width"], slot["height"]))
+
+
+    def test_ios_real_device_frame_image(self):
         img_path = os.path.join("Exports", "iOS", "17 Pro Max", "17 Pro Max - Silver.png")
         img = load_image(img_path)
         alpha_threshold = 10
@@ -53,7 +66,7 @@ class TestEstimateRadius(unittest.TestCase):
         radius = estimate_radius(img, slot, alpha_threshold)
         # The radius should be a positive integer, but not larger than half the slot width/height
         self.assertIsInstance(radius, int)
-        self.assertGreater(radius, 0)
+        self.assertGreater(radius, 10)
         self.assertLess(radius, max(slot["width"], slot["height"]))
 
 if __name__ == "__main__":
