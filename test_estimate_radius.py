@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 import numpy as np
 
-from create_index import load_image, find_transparent_components, choose_best_component, estimate_radius
+from create_index import analyze_image, estimate_radius
 import os
 
 def make_test_image(size, slot, radius, alpha=0):
@@ -46,28 +46,28 @@ class TestEstimateRadius(unittest.TestCase):
 
     def test_android_real_device_frame_image(self):
         img_path = os.path.join("Exports", "Android Phone", "Pixel 8", "Pixel 8 - Hazel.png")
-        img = load_image(img_path)
         alpha_threshold = 10
-        components = find_transparent_components(img, alpha_threshold)
-        slot = choose_best_component(components)
-        radius = estimate_radius(img, slot, alpha_threshold)
+        
+        result = analyze_image(img_path, alpha_threshold)
+        # print(result)
+        
         # The radius should be a positive integer, but not larger than half the slot width/height
-        self.assertIsInstance(radius, int)
-        self.assertGreater(radius, 10)
-        self.assertLess(radius, max(slot["width"], slot["height"]))
+        self.assertIsInstance(result["slot"]["radius"], int)
+        self.assertGreater(result["slot"]["radius"], 10)
+        self.assertLess(result["slot"]["radius"], max(result["slot"]["width"], result["slot"]["height"]))
 
 
     def test_ios_real_device_frame_image(self):
         img_path = os.path.join("Exports", "iOS", "17 Pro Max", "17 Pro Max - Silver.png")
-        img = load_image(img_path)
         alpha_threshold = 10
-        components = find_transparent_components(img, alpha_threshold)
-        slot = choose_best_component(components)
-        radius = estimate_radius(img, slot, alpha_threshold)
+
+        result = analyze_image(img_path, alpha_threshold)
+        # print(result)
+        
         # The radius should be a positive integer, but not larger than half the slot width/height
-        self.assertIsInstance(radius, int)
-        self.assertGreater(radius, 10)
-        self.assertLess(radius, max(slot["width"], slot["height"]))
+        self.assertIsInstance(result["slot"]["radius"], int)
+        self.assertGreater(result["slot"]["radius"], 10)
+        self.assertLess(result["slot"]["radius"], max(result["slot"]["width"], result["slot"]["height"]))
 
 if __name__ == "__main__":
     unittest.main()

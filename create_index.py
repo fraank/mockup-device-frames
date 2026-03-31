@@ -10,6 +10,8 @@ import re
 from collections import deque
 from pathlib import Path
 from typing import Any, Dict
+import numpy as np
+from PIL import Image
 import unicodedata
 
 
@@ -260,20 +262,98 @@ def draw_debug_overlay(
 
     debug.save(out_path)
 
+def flood_filling(img):
+    w, h = img.size
+    
+    alpha = img.getchannel("A")
+    alpha_data = alpha.load()
+
+    # Maske für äußere Transparenz
+    visited = [[False]*h for _ in range(w)]
+    queue = deque()
+
+    # Start: alle Randpixel, die transparent sind
+    for x in range(w):
+        for y in [0, h-1]:
+            if alpha_data[x, y] == 0:
+                queue.append((x, y))
+                visited[x][y] = True
+
+    for y in range(h):
+        for x in [0, w-1]:
+            if alpha_data[x, y] == 0:
+                queue.append((x, y))
+                visited[x][y] = True
+
+    # Flood Fill (4-neighborhood)
+    while queue:
+        x, y = queue.popleft()
+        for nx, ny in [(x+1,y),(x-1,y),(x,y+1),(x,y-1)]:
+            if 0 <= nx < w and 0 <= ny < h:
+                if not visited[nx][ny] and alpha_data[nx, ny] == 0:
+                    visited[nx][ny] = True
+                    queue.append((nx, ny))
+
+
+    pixels = img.load()
+
+    for x in range(w):
+        for y in range(h):
+            if visited[x][y]:
+                # äußere Transparenz → schwarz, aber sichtbar machen
+                pixels[x, y] = (0, 0, 0, 255)
+    
+    return img
 
 def analyze_image(path: str, alpha_threshold: int):
     img = load_image(path)
     width, height = img.size
 
+    img = img.convert("RGBA")
+    
+    # make bw, no really improovement
+    # img = img.convert("LA")  # L + Alpha
+    # img = img.convert("RGBA")
+    
+    # make black
+    # Alpha extrahieren
+    alpha = img.getchannel("A")
+    # Neues schwarzes Bild erzeugen
+    black = Image.new("RGBA", img.size, (0, 0, 0, 255))
+    # Alpha wieder einsetzen
+    black.putalpha(alpha)
+    img = black
+    
+    img = flood_filling(img)
+    
+    # make the image max with / height of 1024px, while keeping the aspect ratio
+    # decreases processing time, but makes it less accurate for big images
+    # max_dim = 1024
+    # scale = 1.0
+    # if width > max_dim or height > max_dim:
+    #     scale = min(max_dim / width, max_dim / height)
+    #     new_width = int(width * scale)
+    #     new_height = int(height * scale)
+    #     img = img.resize((new_width, new_height), resample=Image.LANCZOS)
+    #     width, height = img.size
+
+    # # debug path
+    # debug_path = Path("debug") / Path(path + '_scale').with_suffix(".png").name
+    # debug_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # # save tmp image size for debugging
+    # img.save(debug_path)
+    
     components = find_transparent_components(img, alpha_threshold)
     best = choose_best_component(components)
+       
     radius = estimate_radius(img, best, alpha_threshold)
 
     result = {
         "file": str(Path(path).resolve()),
         "imageWidth": width,
         "imageHeight": height,
-        "alphaThreshold": alpha_threshold,
+        "alphaThreshold": alpha_threshold,    
         "slot": {
             "x": best["min_x"],
             "y": best["min_y"],
@@ -481,7 +561,7 @@ def main() -> int:
     parser.add_argument(
         "--alpha",
         type=int,
-        default=10,
+        default=30,
         help="Alpha threshold used by detector (default: 10)",
     )
     args = parser.parse_args()
